@@ -1,0 +1,31 @@
+.game{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: cadetblue;
+}
+.board{
+  display: inline-block;
+}
+.row{
+  display: flex;
+}
+.square{
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: burlywood;
+  border: 1px solid black;
+}
+.reset-btn{
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
